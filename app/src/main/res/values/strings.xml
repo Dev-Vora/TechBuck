@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tech Buck</string>
+    <string name="password"> Password</string>
+    <string name="enter_display_name">Enter Display Name</string>
+    <string name="enter_email"> Enter Email</string>
+    <string name="submit">Submit</string>
+
+    <string name="login">Login</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="not_signup">Not Signup?</string>
+    <string name="todo">TODO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

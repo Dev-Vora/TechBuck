@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="30dp"
+    android:background="#fff">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inapprppriate Behaviour"
+        android:id="@+id/cb1"
+        android:backgroundTint="#3da8dc"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It's Spam"
+        android:id="@+id/cb2"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="#3da8dc"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_border"
+        android:minLines="2"
+        android:hint="Describe"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/desc"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:id="@+id/btn_report"
+        />
+
+
+</LinearLayout>

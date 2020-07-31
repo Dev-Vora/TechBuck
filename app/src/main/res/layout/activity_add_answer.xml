@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context="com.example.dev.techbuck.AddAnswer">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Answer:"
+        android:textColor="#000"
+        android:textSize="18sp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_border"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:padding="3dp">
+
+        <EditText
+            android:id="@+id/edans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:backgroundTint="#fff"
+            android:minLines="3"
+             />
+
+        <ImageButton
+            android:id="@+id/ansmic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:foregroundGravity="center_vertical"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_mic_none_black_24dp"
+
+            />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/ansimportimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="#d9d4d4"
+        android:drawableLeft="@drawable/image"
+        android:padding="5dp"
+        android:text="Import Image"
+        android:textAllCaps="false" />
+
+    <ImageView
+        android:id="@+id/addansimageview"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/anspost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="Post"
+        android:textAllCaps="false" />
+
+</LinearLayout>
